@@ -4,7 +4,7 @@
       "user": {
         "data": {
           "address": "Gerät",
-          "type": "Modell (erforderlich bei PBOX Geräten)"
+          "type": "Modell (erforderlich bei EBOX Geräten)"
         }
       }
     }
