@@ -1,6 +1,6 @@
 {
-    "domain": "bluetti_bt barf",
-    "name": "Bluetti BT barf",
+    "domain": "bluetti_bt",
+    "name": "Bluetti BT",
     "bluetooth": [
         { "local_name": "AC60*" },
         { "local_name": "AC70*" },
