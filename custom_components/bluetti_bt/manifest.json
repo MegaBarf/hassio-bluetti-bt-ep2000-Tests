@@ -1,6 +1,6 @@
 {
-    "domain": "bluetti_bt",
-    "name": "Bluetti BT",
+    "domain": "bluetti_bt barf",
+    "name": "Bluetti BT barf",
     "bluetooth": [
         { "local_name": "AC60*" },
         { "local_name": "AC70*" },
@@ -17,13 +17,13 @@
         { "local_name": "EP800*" },
         { "local_name": "EBOX*" }
     ],
-    "codeowners": ["@Patrick762"],
+    "codeowners": ["barf"],
     "config_flow": true,
     "dependencies": ["bluetooth_adapters"],
-    "documentation": "https://github.com/Patrick762/hassio-bluetti-bt",
+    "documentation": "https://github.com/MegaBarf/hassio-bluetti-bt-ep2000",
     "integration_type": "device",
     "iot_class": "local_polling",
-    "issue_tracker": "https://github.com/Patrick762/hassio-bluetti-bt/issues",
+    "issue_tracker": "https://github.com/MegaBarf/hassio-bluetti-bt-ep2000/issues",
     "requirements": [],
     "version": "0.x.bArF"
 }
