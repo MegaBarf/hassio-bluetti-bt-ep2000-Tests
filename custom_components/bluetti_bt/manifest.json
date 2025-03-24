@@ -17,7 +17,7 @@
         { "local_name": "EP800*" },
         { "local_name": "EBOX*" }
     ],
-    "codeowners": ["barf"],
+    "codeowners": ["@Patrick762"],
     "config_flow": true,
     "dependencies": ["bluetooth_adapters"],
     "documentation": "https://github.com/MegaBarf/hassio-bluetti-bt-ep2000",
