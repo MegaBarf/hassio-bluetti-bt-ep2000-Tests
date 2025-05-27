@@ -1,7 +1,8 @@
 # Warning!!! I do not know what I'm doing!!!
 
 Just testing for use with an EP2000
-
+This repo is used for testing out new registers and such.
+I barely have time to work on this.
 
 # hassio-bluetti-bt
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
