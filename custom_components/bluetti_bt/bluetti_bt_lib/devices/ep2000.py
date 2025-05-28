@@ -16,6 +16,6 @@ class EP2000(ProtocolV2Device):
 
 
 
-    @property
-    def polling_commands(self) -> List[ReadHoldingRegisters]:
-        return self.struct.get_read_holding_registers()
+#    @property
+#    def polling_commands(self) -> List[ReadHoldingRegisters]:
+#        return self.struct.get_read_holding_registers()
