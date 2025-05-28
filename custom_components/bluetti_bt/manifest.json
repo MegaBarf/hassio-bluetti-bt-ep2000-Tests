@@ -1,6 +1,6 @@
 {
     "domain": "bluetti_bt",
-    "name": "Bluetti BT",
+    "name": "Bluetti BT - EP2000 - TESTS",
     "bluetooth": [
         { "local_name": "AC60*" },
         { "local_name": "AC70*" },
@@ -15,6 +15,7 @@
         { "local_name": "EP600*" },
         { "local_name": "EP760*" },
         { "local_name": "EP800*" },
+        { "local_name": "EP2000*" },
         { "local_name": "EBOX*" }
     ],
     "codeowners": ["@Patrick762"],
