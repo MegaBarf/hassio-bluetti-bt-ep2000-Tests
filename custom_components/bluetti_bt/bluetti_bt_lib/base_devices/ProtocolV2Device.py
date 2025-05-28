@@ -27,7 +27,7 @@ class ProtocolV2Device(BluettiDevice):
         )  # Total power generated since last reset (kwh)
 
         # Battery
-        self.struct.add_uint_field("total_battery_percent", 102)
+        self.struct.add_uint_field("total_battery_percent_base_device", 102)
 
         # Battery packs
         # self.struct.add_uint_field('pack_num_max', ?) # internal
