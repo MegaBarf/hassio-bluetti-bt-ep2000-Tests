@@ -22,9 +22,9 @@ class ProtocolV2Device(BluettiDevice):
         # self.struct.add_uint_field('dc_output_power', ?)
 
         # Power IO statistics
-        #self.struct.add_decimal_field(
-        #    "power_generation", 154, 1
-        #)  # Total power generated since last reset (kwh)
+        self.struct.add_decimal_field(
+            "power_generation", 154, 1
+        )  # Total power generated since last reset (kwh)
 
         # Battery
         self.struct.add_uint_field("total_battery_percent_base_device", 102)
@@ -56,7 +56,7 @@ class ProtocolV2Device(BluettiDevice):
         return [
             ReadHoldingRegisters(110, 6),
             ReadHoldingRegisters(116, 4),
-           # ReadHoldingRegisters(154, 1),
+            ReadHoldingRegisters(154, 1),
             ReadHoldingRegisters(102, 1),
         ]
 
